@@ -109,6 +109,32 @@ mostrarNome(); // Mostra "undefined" em vez de "João"
 // Por isso é melhor usar let/const - eles não sofrem desse problema!
 
 
+// =============================
+// TEMPLATE LITERALS (ES6)
+// =============================
+// O que é: Sintaxe de string com crases (`) que permite interpolação `${expr}` e multilinhas.
+// Por que usar: Deixa mensagens dinâmicas mais legíveis do que concatenação com + e suporta multilinhas.
 
+const tlNome = "Ruan";
+const tlIdade = 24;
+const tlCidade = "Santo André";
 
+// Antes (concatenação):
+const mensagemConcat = "Meu nome é " + tlNome + ", tenho " + tlIdade + " anos e moro em " + tlCidade;
+
+// Agora (template literal):
+const mensagemTemplate = `Meu nome é ${tlNome}, tenho ${tlIdade} anos e moro em ${tlCidade}`;
+
+console.log("TL - concat:", mensagemConcat);
+console.log("TL - template:", mensagemTemplate);
+
+// Multilinhas e expressões inline
+const bloco = `Linha A
+Multilinha real
+Soma: ${2 + 2}`;
+console.log("TL - multilinhas:", bloco);
+
+// Função dentro do template
+const pluralizarAno = (anos) => `${anos} ano${anos === 1 ? "" : "s"}`;
+console.log(`TL - função inline: tenho ${pluralizarAno(tlIdade)}`);
 

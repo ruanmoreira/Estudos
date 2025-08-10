@@ -1,7 +1,12 @@
 // EXERCÍCIO 2: JavaScript Moderno (ES6+)
 // ======================================
 // Este arquivo contém APENAS instruções. Escreva suas soluções logo abaixo de cada bloco de comentários.
-// Consulte exemplos em `Classes/es6.js` quando precisar.
+// Consulte exemplos em:
+//  - `Classes/variables.js` (Template Literals)
+//  - `Classes/arrow-functions.js`
+//  - `Classes/destructuring.js`
+//  - `Classes/spread.js`
+//  - `Classes/rest-parameters.js`
 
 // 1) TEMPLATE LITERALS
 // ---------------------
