@@ -25,27 +25,41 @@
 - ✅ Low-code development (Genexus)
 - 🔄 Transição para desenvolvimento "hardcode"
 
-## 🚀 Plano de Estudos Personalizado
+## ✅ Checklist de Estudos
 
-### Fase 1: Revisão e Modernização (2-3 semanas)
-- **JavaScript ES6+** (arrow functions, destructuring, modules)
-- **Async/Await** e Promises
-- **Node.js** ambiente e fundamentos
-- **NPM** e gerenciamento de dependências
+Legenda: `[x]` concluído • `[ ]` pendente
 
-### Fase 2: Backend Development (4-6 semanas)
-- **Express.js** framework
-- **APIs RESTful**
-- **Middleware** e autenticação
-- **Bancos de dados** (MongoDB/PostgreSQL)
-- **Testes** com Jest
+### 🌱 Fundamentos de JavaScript
+- [x] Variáveis e tipos de dados
+- [ ] Operadores e controle de fluxo
+- [x] Funções e escopo
+- [ ] Arrays e objetos
+- [ ] Manipulação básica de strings
 
-### Fase 3: AWS e Event-Driven (6-8 semanas)
-- **AWS Lambda** functions
-- **EventBridge** e SQS
-- **API Gateway**
-- **DynamoDB**
-- **Serverless** architecture
+### ⚡ JavaScript Moderno (ES6+)
+- [x] Arrow functions
+- [x] Destructuring
+- [x] Operador spread
+- [x] Parâmetros rest
+- [x] Classes ES6
+- [ ] Módulos ES6
+- [ ] Promises e async/await
+- [ ] Manipulação do DOM
+- [ ] Event handling
+
+### 🔧 Introdução ao Node.js
+- [ ] Configuração do ambiente
+- [ ] NPM e gerenciamento de pacotes
+- [ ] Sistema de módulos
+- [ ] Operações com sistema de arquivos
+- [ ] Eventos e streams
+
+### 🚀 Node.js Avançado
+- [ ] Express.js
+- [ ] APIs RESTful
+- [ ] Middleware e autenticação
+- [ ] Integração com banco de dados
+- [ ] Aplicações em tempo real
 
 ## 📝 Notas de Acompanhamento
 - **Data de Início:** 10/08/2025
